@@ -6,7 +6,7 @@
     <ProductVersion>
     </ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{FE106BE2-6810-4717-8780-110425712A02}</ProjectGuid>
+    <ProjectGuid>{463C2C17-985A-4148-8FE7-D13E83D4ACC2}</ProjectGuid>
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -56,6 +56,59 @@
     <Content Include="Account\ChangePasswordSuccess.aspx" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
+    <Content Include="Book.aspx" />
+    <Content Include="ConfirmSend.aspx" />
+    <Content Include="Contact Us.aspx" />
+    <Content Include="IMAGES\10pcoff.jpg" />
+    <Content Include="IMAGES\12412786-salad-and-vegetables-on-a-fork-healthy-diet-with-organic-food.jpg" />
+    <Content Include="IMAGES\58659email_icon_green.jpg" />
+    <Content Include="IMAGES\about-icon.png" />
+    <Content Include="IMAGES\AppleJuice.jpg" />
+    <Content Include="IMAGES\Basil.jpg" />
+    <Content Include="IMAGES\carrotJuice.jpg" />
+    <Content Include="IMAGES\cheese.gif" />
+    <Content Include="IMAGES\chickenMushroomPanini copy.jpg" />
+    <Content Include="IMAGES\contact_us.gif" />
+    <Content Include="IMAGES\credit-cards-logos.png" />
+    <Content Include="IMAGES\CreditCardLogo.jpg" />
+    <Content Include="IMAGES\cucumber.jpg" />
+    <Content Include="IMAGES\grapefruitJuice.png" />
+    <Content Include="IMAGES\GreekPic.png" />
+    <Content Include="IMAGES\green-contact-us-icon-green-clipart-83380681.jpg" />
+    <Content Include="IMAGES\GreenGrubLogo.png" />
+    <Content Include="IMAGES\GreenGrubLogoJPEG.jpg" />
+    <Content Include="IMAGES\HalfOffTagIllustrated1.jpg" />
+    <Content Include="IMAGES\home-trans.png" />
+    <Content Include="IMAGES\icon_ingredients.gif" />
+    <Content Include="IMAGES\img-secure.png" />
+    <Content Include="IMAGES\ingredient.jpg" />
+    <Content Include="IMAGES\MenuIcon.gif" />
+    <Content Include="IMAGES\mint.jpg" />
+    <Content Include="IMAGES\olive oil.jpg" />
+    <Content Include="IMAGES\olive.jpg" />
+    <Content Include="IMAGES\OrangeJuice.png" />
+    <Content Include="IMAGES\panini-gif.gif" />
+    <Content Include="IMAGES\paypal-button.png" />
+    <Content Include="IMAGES\paypal-logo6.jpg" />
+    <Content Include="IMAGES\pineappleJuice.jpg" />
+    <Content Include="IMAGES\red onion.jpg" />
+    <Content Include="IMAGES\RoastedVegPasta.jpg" />
+    <Content Include="IMAGES\Rosemary Chicken panini.jpg" />
+    <Content Include="IMAGES\secure.png" />
+    <Content Include="IMAGES\shoppingCartIcon.jpeg" />
+    <Content Include="IMAGES\SimplyGreek.png" />
+    <Content Include="IMAGES\SimplyLeaf.png" />
+    <Content Include="IMAGES\store_front_small.jpg" />
+    <Content Include="IMAGES\store_front_small.png" />
+    <Content Include="IMAGES\tomato.jpg" />
+    <Content Include="IMAGES\tomatoJuice.png" />
+    <Content Include="IMAGES\TOPback.jpg" />
+    <Content Include="IMAGES\Tropical.jpg" />
+    <Content Include="IMAGES\vegetarian.jpg" />
+    <Content Include="OurIngredients.aspx" />
+    <Content Include="IMAGES\mountain.jpg" />
+    <Content Include="IMAGES\shopping basket.png" />
+    <Content Include="LunchMenu.aspx" />
     <Content Include="Styles\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
@@ -69,6 +122,8 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
+    <Content Include="MyBasket.aspx" />
+    <Content Include="ConfirmationPage.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="About.aspx.cs">
@@ -106,6 +161,22 @@
     <Compile Include="Account\Register.aspx.designer.cs">
       <DependentUpon>Register.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Book.aspx.cs">
+      <DependentUpon>Book.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConfirmSend.aspx.cs">
+      <DependentUpon>ConfirmSend.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Contact Us.aspx.cs">
+      <DependentUpon>Contact Us.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="OurIngredients.aspx.cs">
+      <DependentUpon>OurIngredients.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -116,6 +187,10 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="LunchMenu.aspx.cs">
+      <DependentUpon>LunchMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Site.Master.cs">
       <DependentUpon>Site.Master</DependentUpon>
@@ -123,6 +198,20 @@
     </Compile>
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MyBasket.aspx.cs">
+      <DependentUpon>MyBasket.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MyBasket.aspx.designer.cs">
+      <DependentUpon>MyBasket.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ConfirmationPage.aspx.cs">
+      <DependentUpon>ConfirmationPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ConfirmationPage.aspx.designer.cs">
+      <DependentUpon>ConfirmationPage.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -140,7 +229,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>59896</DevelopmentServerPort>
+          <DevelopmentServerPort>50260</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>
