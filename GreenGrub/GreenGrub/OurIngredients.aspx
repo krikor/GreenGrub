@@ -80,7 +80,8 @@
         pre-processed ready-to-eat food coming from mass producers. To support our 
         philosophy, we encourage locally produced, organic ingredients.</span><span 
             class="style5"><br />
-        &nbsp;</span></p>
+        </span>
+    </p>
     <p class="style6">
         <span class="style5" 
             style="font-size: 15px; font-style: normal; font-variant: normal; font-weight: bold; text-decoration: none; vertical-align: baseline; background-color: transparent;">

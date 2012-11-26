@@ -31,21 +31,21 @@
     .style6
     {
         position: absolute;
-        top: 398px;
-        left: 429px;
+        top: 423px;
+        left: 170px;
         z-index: 1;
-        right: 217px;
+        right: 454px;
         width: 425px;
         height: 292px;
     }
     .style7
     {
         position: absolute;
-        top: 379px;
+        top: 367px;
         z-index: 1;
         width: 147px;
         height: 145px;
-        left: 273px;
+        left: 105px;
     }
     .style8
     {

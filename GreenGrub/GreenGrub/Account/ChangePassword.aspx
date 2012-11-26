@@ -5,8 +5,6 @@
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
     <h2>
-        &nbsp;</h2>
-    <h2>
         Change Password
     </h2>
     <p>
