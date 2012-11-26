@@ -1,6 +1,11 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="MyBasket.aspx.cs" Inherits="GreenGrub.WebForm2" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="MyBasket.aspx.cs" Inherits="GreenGrub.WebForm5" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
     <style type="text/css">
+
+        .style17
+        {
+            text-align: right;
+        }
         .style4
         {
             text-align: center;
@@ -189,22 +194,18 @@
             padding-right: 1px;
             padding-top: 1px;
         }
-        .style17
-        {
-            text-align: right;
-        }
         </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div class="style17">
         <div class="style4">
-        <br />
-        <br />
-        <span class="style5">My Basket<br />
-        </span><span class="style6">
-        <br />
-        <br />
-        <br />
+            <br />
+            <br />
+            <span class="style5">My Basket<br />
+            </span><span class="style6">
+            <br />
+            <br />
+            <br />
         </div>
         <table border="0" cellpadding="0" cellspacing="0" class="style16" 
             style="border-collapse: collapse;">
@@ -225,7 +226,7 @@
                 <td class="style7" height="20">
                     <asp:Image ID="Image1" runat="server" Height="44px" 
                         ImageUrl="~/IMAGES/GreekPic.png" Width="49px" />
-&nbsp;Simply Greek Salad</td>
+                    &nbsp;Simply Greek Salad</td>
                 <td class="style10">
                     <asp:Button ID="Button1" runat="server" BackColor="#FF3300" BorderStyle="None" 
                         Text="Remove" Width="88px" />
@@ -239,7 +240,7 @@
                 <td class="style11" height="20">
                     <asp:Image ID="Image2" runat="server" Height="56px" 
                         ImageUrl="~/IMAGES/Tropical.jpg" Width="45px" />
-&nbsp;Tropical Juice</td>
+                    &nbsp;Tropical Juice</td>
                 <td class="style12">
                     <span class="style6">
                     <asp:Button ID="Button2" runat="server" BackColor="#FF3300" 
@@ -263,17 +264,17 @@
             </tr>
         </table>
         <asp:CheckBox ID="CheckBox1" runat="server" Text="Student (Show ID)" />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <br />
-        <asp:Button ID="Button4" runat="server" onclick="Button4_Click" 
-            Text="Continue to Checkout" Width="227px" BackColor="#0066FF" 
-            BorderColor="#0066FF" BorderStyle="None" ForeColor="White" />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="Button4" runat="server" BackColor="#0066FF" 
+            BorderColor="#0066FF" BorderStyle="None" ForeColor="White" 
+            onclick="Button4_Click" Text="Continue to Checkout" Width="227px" />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <br />
         <asp:ImageButton ID="ImageButton7" runat="server" Height="53px" 
             ImageUrl="~/IMAGES/paypal-button.png" onclick="ImageButton7_Click1" 
             Width="214px" />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <br />
         &nbsp;&nbsp;&nbsp;
         <br />
@@ -287,5 +288,5 @@
         <br />
         <br />
         <br />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
 </asp:Content>

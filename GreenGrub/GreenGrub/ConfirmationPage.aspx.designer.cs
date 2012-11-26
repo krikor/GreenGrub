@@ -10,7 +10,7 @@
 namespace GreenGrub {
     
     
-    public partial class WebForm4 {
+    public partial class WebForm2 {
         
         /// <summary>
         /// HyperLink1 control.
