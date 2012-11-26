@@ -144,7 +144,7 @@ first child of the left and right table columns */
 
 div.hideSkiplink
 {
-    background-color:#ffffff;
+    background-color:#3a4f63;
     width:100%;
 }
 
@@ -258,22 +258,22 @@ div.accountInfo
     display: block;
     text-align: right;
     padding: 10px;
-    color: black;
+    color: White;
 }
 
 .loginDisplay a:link
 {
-    color: black;
+    color: white;
 }
 
 .loginDisplay a:visited
 {
-    color: purple;
+    color: white;
 }
 
 .loginDisplay a:hover
 {
-    color: green;
+    color: white;
 }
 
 .failureNotification
