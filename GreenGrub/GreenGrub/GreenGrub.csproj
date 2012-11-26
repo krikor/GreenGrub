@@ -56,6 +56,54 @@
     <Content Include="Account\ChangePasswordSuccess.aspx" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
+    <Content Include="IMAGES\10pcoff.jpg" />
+    <Content Include="IMAGES\12412786-salad-and-vegetables-on-a-fork-healthy-diet-with-organic-food.jpg" />
+    <Content Include="IMAGES\58659email_icon_green.jpg" />
+    <Content Include="IMAGES\about-icon.png" />
+    <Content Include="IMAGES\AppleJuice.jpg" />
+    <Content Include="IMAGES\Basil.jpg" />
+    <Content Include="IMAGES\carrotJuice.jpg" />
+    <Content Include="IMAGES\cheese.gif" />
+    <Content Include="IMAGES\chickenMushroomPanini copy.jpg" />
+    <Content Include="IMAGES\contact_us.gif" />
+    <Content Include="IMAGES\credit-cards-logos.png" />
+    <Content Include="IMAGES\CreditCardLogo.jpg" />
+    <Content Include="IMAGES\cucumber.jpg" />
+    <Content Include="IMAGES\grapefruitJuice.png" />
+    <Content Include="IMAGES\GreekPic.png" />
+    <Content Include="IMAGES\green-contact-us-icon-green-clipart-83380681.jpg" />
+    <Content Include="IMAGES\GreenGrubLogo.png" />
+    <Content Include="IMAGES\GreenGrubLogoJPEG.jpg" />
+    <Content Include="IMAGES\HalfOffTagIllustrated1.jpg" />
+    <Content Include="IMAGES\home-trans.png" />
+    <Content Include="IMAGES\icon_ingredients.gif" />
+    <Content Include="IMAGES\img-secure.png" />
+    <Content Include="IMAGES\ingredient.jpg" />
+    <Content Include="IMAGES\MenuIcon.gif" />
+    <Content Include="IMAGES\mint.jpg" />
+    <Content Include="IMAGES\mountain.jpg" />
+    <Content Include="IMAGES\olive oil.jpg" />
+    <Content Include="IMAGES\olive.jpg" />
+    <Content Include="IMAGES\OrangeJuice.png" />
+    <Content Include="IMAGES\panini-gif.gif" />
+    <Content Include="IMAGES\paypal-button.png" />
+    <Content Include="IMAGES\paypal-logo6.jpg" />
+    <Content Include="IMAGES\pineappleJuice.jpg" />
+    <Content Include="IMAGES\red onion.jpg" />
+    <Content Include="IMAGES\RoastedVegPasta.jpg" />
+    <Content Include="IMAGES\Rosemary Chicken panini.jpg" />
+    <Content Include="IMAGES\secure.png" />
+    <Content Include="IMAGES\shopping basket.png" />
+    <Content Include="IMAGES\shoppingCartIcon.jpeg" />
+    <Content Include="IMAGES\SimplyGreek.png" />
+    <Content Include="IMAGES\SimplyLeaf.png" />
+    <Content Include="IMAGES\store_front_small.jpg" />
+    <Content Include="IMAGES\store_front_small.png" />
+    <Content Include="IMAGES\tomato.jpg" />
+    <Content Include="IMAGES\tomatoJuice.png" />
+    <Content Include="IMAGES\TOPback.jpg" />
+    <Content Include="IMAGES\Tropical.jpg" />
+    <Content Include="IMAGES\vegetarian.jpg" />
     <Content Include="Styles\Site.css" />
     <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
@@ -179,6 +227,9 @@
   <ItemGroup>
     <Content Include="Account\Web.config" />
     <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IMAGES\Thumbs.db" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

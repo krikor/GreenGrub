@@ -4,14 +4,47 @@
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
-    <h2>
-        Welcome to ASP.NET!
-    </h2>
-    <p>
-        To learn more about ASP.NET visit <a href="http://www.asp.net" title="ASP.NET Website">www.asp.net</a>.
-    </p>
-    <p>
-        You can also find <a href="http://go.microsoft.com/fwlink/?LinkID=152368&amp;clcid=0x409"
-            title="MSDN ASP.NET Docs">documentation on ASP.NET at MSDN</a>.
-    </p>
+    <center>
+        &nbsp;&nbsp;</p>
+        <p class="style5">
+            Welcome to GreenGrub</p>
+        <p class="style5">
+            &nbsp;</p>
+        <p class="style4">
+            &nbsp;</p>
+        <p class="style4">
+            <asp:Image ID="Image4" runat="server" CssClass="style8" 
+                ImageUrl="~/IMAGES/panini-gif.gif" />
+        </p>
+        <p class="style4">
+            <asp:Image ID="Image3" runat="server" CssClass="style7" 
+                ImageUrl="~/IMAGES/10pcoff.jpg" />
+        </p>
+        <p class="style4">
+            &nbsp;</p>
+        <p class="style4">
+            &nbsp;</p>
+        <p class="style4">
+            <asp:Image ID="Image5" runat="server" CssClass="style9" 
+                ImageUrl="~/IMAGES/HalfOffTagIllustrated1.jpg" />
+        </p>
+        <p class="style4">
+            &nbsp;</p>
+        <p class="style4">
+            &nbsp;</p>
+        <p class="style4">
+            <asp:Image ID="Image2" runat="server" CssClass="style6" 
+                ImageUrl="~/IMAGES/store_front_small.png" />
+        </p>
+        <p class="style4">
+            &nbsp;</p>
+        <p class="style4">
+            &nbsp;</p>
+        <p class="style4">
+            &nbsp;</p>
+        <p class="style4">
+            &nbsp;</p>
+    </center>
+    <br />
+    <br />
 </asp:Content>
