@@ -120,9 +120,10 @@
     <Content Include="Book.aspx" />
     <Content Include="ConfirmationPage.aspx" />
     <Content Include="ConfirmSend.aspx" />
-    <Content Include="ContactUs.aspx" />
+    <Content Include="Contact Us.aspx" />
     <Content Include="MyBasket.aspx" />
     <Content Include="OurIngredients.aspx" />
+    <Content Include="LunchMenu.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="About.aspx.cs">
@@ -199,12 +200,12 @@
     <Compile Include="ConfirmSend.aspx.designer.cs">
       <DependentUpon>ConfirmSend.aspx</DependentUpon>
     </Compile>
-    <Compile Include="ContactUs.aspx.cs">
-      <DependentUpon>ContactUs.aspx</DependentUpon>
+    <Compile Include="Contact Us.aspx.cs">
+      <DependentUpon>Contact Us.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="ContactUs.aspx.designer.cs">
-      <DependentUpon>ContactUs.aspx</DependentUpon>
+    <Compile Include="Contact Us.aspx.designer.cs">
+      <DependentUpon>Contact Us.aspx</DependentUpon>
     </Compile>
     <Compile Include="MyBasket.aspx.cs">
       <DependentUpon>MyBasket.aspx</DependentUpon>
@@ -219,6 +220,13 @@
     </Compile>
     <Compile Include="OurIngredients.aspx.designer.cs">
       <DependentUpon>OurIngredients.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LunchMenu.aspx.cs">
+      <DependentUpon>LunchMenu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LunchMenu.aspx.designer.cs">
+      <DependentUpon>LunchMenu.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

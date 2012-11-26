@@ -198,95 +198,95 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <div class="style17">
-        <div class="style4">
-            <br />
-            <br />
-            <span class="style5">My Basket<br />
-            </span><span class="style6">
-            <br />
-            <br />
-            <br />
-        </div>
-        <table border="0" cellpadding="0" cellspacing="0" class="style16" 
-            style="border-collapse: collapse;">
-            <colgroup>
-                <col span="4" style="width:48pt" width="64" />
-            </colgroup>
-            <tr height="20">
-                <td class="style7" height="20">
-                    Products</td>
-                <td class="style8" width="64">
-                    Remove</td>
-                <td class="style8" width="64">
-                    Quatity</td>
-                <td class="style8" width="64">
-                    Unit Price</td>
-            </tr>
-            <tr height="20">
-                <td class="style7" height="20">
-                    <asp:Image ID="Image1" runat="server" Height="44px" 
-                        ImageUrl="~/IMAGES/GreekPic.png" Width="49px" />
-                    &nbsp;Simply Greek Salad</td>
-                <td class="style10">
-                    <asp:Button ID="Button1" runat="server" BackColor="#FF3300" BorderStyle="None" 
-                        Text="Remove" Width="88px" />
-                </td>
-                <td class="style10">
-                    1</td>
-                <td class="style10">
-                    <span class="st">£ </span>5.99</td>
-            </tr>
-            <tr height="20">
-                <td class="style11" height="20">
-                    <asp:Image ID="Image2" runat="server" Height="56px" 
-                        ImageUrl="~/IMAGES/Tropical.jpg" Width="45px" />
-                    &nbsp;Tropical Juice</td>
-                <td class="style12">
-                    <span class="style6">
-                    <asp:Button ID="Button2" runat="server" BackColor="#FF3300" 
-                        BorderColor="#FF3300" BorderStyle="None" Text="Remove" Width="87px" />
-                    </span>
-                </td>
-                <td class="style12">
-                    1</td>
-                <td class="style12">
-                    <span class="st">£ </span>1.99</td>
-            </tr>
-            <tr height="20">
-                <td class="style13" height="20">
-                    &nbsp;</td>
-                <td class="style14">
-                    &nbsp;</td>
-                <td class="style14">
-                    SubTotal:</td>
-                <td class="style15">
-                    <span class="st">£ </span>7.98</td>
-            </tr>
-        </table>
-        <asp:CheckBox ID="CheckBox1" runat="server" Text="Student (Show ID)" />
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <div class="style4">
         <br />
-        <asp:Button ID="Button4" runat="server" BackColor="#0066FF" 
-            BorderColor="#0066FF" BorderStyle="None" ForeColor="White" 
-            onclick="Button4_Click" Text="Continue to Checkout" Width="227px" />
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
         <br />
-        <asp:ImageButton ID="ImageButton7" runat="server" Height="53px" 
-            ImageUrl="~/IMAGES/paypal-button.png" onclick="ImageButton7_Click1" 
-            Width="214px" />
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <br />
-        &nbsp;&nbsp;&nbsp;
+        <span class="style5">My Basket<br />
+        </span><span class="style6">
         <br />
         <br />
         <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+    </div>
+    <table border="0" cellpadding="0" cellspacing="0" class="style16" 
+        style="border-collapse: collapse;">
+        <colgroup>
+            <col span="4" style="width:48pt" width="64" />
+        </colgroup>
+        <tr height="20">
+            <td class="style7" height="20">
+                Products</td>
+            <td class="style8" width="64">
+                Remove</td>
+            <td class="style8" width="64">
+                Quatity</td>
+            <td class="style8" width="64">
+                Unit Price</td>
+        </tr>
+        <tr height="20">
+            <td class="style7" height="20">
+                <asp:Image ID="Image1" runat="server" Height="44px" 
+                    ImageUrl="~/IMAGES/GreekPic.png" Width="49px" />
+                &nbsp;Simply Greek Salad</td>
+            <td class="style10">
+                <asp:Button ID="Button1" runat="server" BackColor="#FF3300" BorderStyle="None" 
+                    Text="Remove" Width="88px" />
+            </td>
+            <td class="style10">
+                1</td>
+            <td class="style10">
+                <span class="st">£ </span>5.99</td>
+        </tr>
+        <tr height="20">
+            <td class="style11" height="20">
+                <asp:Image ID="Image2" runat="server" Height="56px" 
+                    ImageUrl="~/IMAGES/Tropical.jpg" Width="45px" />
+                &nbsp;Tropical Juice</td>
+            <td class="style12">
+                <span class="style6">
+                <asp:Button ID="Button2" runat="server" BackColor="#FF3300" 
+                    BorderColor="#FF3300" BorderStyle="None" Text="Remove" Width="87px" />
+                </span>
+            </td>
+            <td class="style12">
+                1</td>
+            <td class="style12">
+                <span class="st">£ </span>1.99</td>
+        </tr>
+        <tr height="20">
+            <td class="style13" height="20">
+                &nbsp;</td>
+            <td class="style14">
+                &nbsp;</td>
+            <td class="style14">
+                SubTotal:</td>
+            <td class="style15">
+                <span class="st">£ </span>7.98</td>
+        </tr>
+    </table>
+    <asp:CheckBox ID="CheckBox1" runat="server" Text="Student (Show ID)" />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br />
+    <asp:Button ID="Button4" runat="server" BackColor="#0066FF" 
+        BorderColor="#0066FF" BorderStyle="None" ForeColor="White" 
+        onclick="Button4_Click" Text="Continue to Checkout" Width="227px" />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br />
+    <asp:ImageButton ID="ImageButton7" runat="server" Height="53px" 
+        ImageUrl="~/IMAGES/paypal-button.png" onclick="ImageButton7_Click1" 
+        Width="214px" />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <br />
+    &nbsp;&nbsp;&nbsp;
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
 </asp:Content>

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ContactUs.aspx.cs" Inherits="GreenGrub.WebForm4" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Contact Us.aspx.cs" Inherits="GreenGrub.WebForm4" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
     <style type="text/css">
 
@@ -31,8 +31,7 @@
     </p>
     <p class="style5">
         Your email address:
-        <asp:TextBox ID="TextBox1" runat="server" ontextchanged="TextBox1_TextChanged" 
-            Width="311px"></asp:TextBox>
+        <asp:TextBox ID="TextBox1" runat="server" Width="311px"></asp:TextBox>
     </p>
     <p class="style5">
         Subject:
@@ -43,8 +42,7 @@
         Message:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     </p>
     <p class="style5">
-        <asp:TextBox ID="TextBox2" runat="server" Height="230px" 
-            ontextchanged="TextBox2_TextChanged" TextMode="MultiLine" Width="418px"></asp:TextBox>
+        <asp:TextBox ID="TextBox2" runat="server" Height="230px" TextMode="MultiLine" Width="418px"></asp:TextBox>
     </p>
     <p class="style5">
         <asp:Button ID="sendMessage" runat="server" BackColor="#99CCFF" 
