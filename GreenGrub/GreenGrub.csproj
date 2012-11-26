@@ -56,8 +56,6 @@
     <Content Include="Account\ChangePasswordSuccess.aspx" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
-    <Content Include="bin\GreenGrub.dll" />
-    <Content Include="bin\GreenGrub.pdb" />
     <Content Include="Book.aspx" />
     <Content Include="ConfirmSend.aspx" />
     <Content Include="Contact Us.aspx" />
