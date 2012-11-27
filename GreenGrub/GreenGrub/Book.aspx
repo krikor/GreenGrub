@@ -2,12 +2,38 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
     <style type="text/css">
 
-        .style28
+        .style1
         {
-            width: 382pt;
-            height: 150px;
+          position: relative;
+            margin: 0px;
+            padding: 0px;
+            background: #4b6c9e;
+            width: 100%;
+            left: 0px;
+            top: 0px;
         }
        
+        .style4
+        {
+            text-align: center;
+        }
+        .style5
+        {
+            text-align: center;
+            font-size: 45pt;
+            font-family: "Bernard MT Condensed";
+            color: #999999;
+        }
+        .style7
+        {
+            text-align: right;
+        }
+        .style8
+        {
+            text-align: center;
+            font-size: large;
+            text-decoration: underline;
+        }
         .style9
         {
             height: 15.0pt;
@@ -451,10 +477,15 @@
             padding-right: 1px;
             padding-top: 1px;
         }
+        .style28
+        {
+            width: 382pt;
+            height: 150px;
+        }
         </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
-    <p>
+     <p>
         <br />
     </p>
     <p class="style5">
@@ -483,7 +514,7 @@
             </tr>
             <tr height="20">
                 <td class="style13" height="20">
-                    1/2 Off Item</td>
+                    Buy one Get One</td>
                 <td class="style14">
                     NO</td>
                 <td class="style15">
@@ -526,9 +557,8 @@
     <p class="style4">
         &nbsp;</p>
     <p class="style8">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-        About you:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    </p>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        About you:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </p>
     <p class="style4">
         First Name:
         <asp:TextBox ID="TextBox1" runat="server" Width="142px"></asp:TextBox>
@@ -544,7 +574,7 @@
     <p class="style4">
         Postal Code:
         <asp:TextBox ID="TextBox4" runat="server" Width="62px"></asp:TextBox>
-        &nbsp;City:
+&nbsp;City:
         <asp:TextBox ID="TextBox5" runat="server" Width="92px"></asp:TextBox>
     </p>
     <p class="style4">
@@ -554,7 +584,7 @@
     <p class="style4">
         &nbsp;</p>
     <p class="style8">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
         Payment Info&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     </p>
     <p class="style4">
@@ -565,7 +595,7 @@
             <asp:ListItem>Discover</asp:ListItem>
             <asp:ListItem>Master Card</asp:ListItem>
         </asp:DropDownList>
-        &nbsp;<asp:Image ID="Image5" runat="server" Height="24px" 
+&nbsp;<asp:Image ID="Image5" runat="server" Height="24px" 
             ImageUrl="~/IMAGES/CreditCardLogo.jpg" Width="143px" />
     </p>
     <p class="style4">
@@ -575,13 +605,13 @@
     <p class="style4">
         Expiration date:
         <asp:TextBox ID="TextBox8" runat="server" Width="77px">dd/mm/yyyy</asp:TextBox>
-        &nbsp;Security Code:
+    &nbsp;Security Code:
         <asp:TextBox ID="TextBox11" runat="server" Width="39px"></asp:TextBox>
         &nbsp;</p>
     <p class="style4">
         &nbsp;</p>
     <p class="style8">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
         When will you pick up your purchase?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     </p>
     <p class="style4">
@@ -592,7 +622,7 @@
     </p>
     <p class="style4">
         <asp:RadioButton ID="RadioButton3" runat="server" Text="Today" />
-        &nbsp;<asp:RadioButton ID="RadioButton4" runat="server" Text="Tomorrow" />
+&nbsp;<asp:RadioButton ID="RadioButton4" runat="server" Text="Tomorrow" />
     </p>
     <p class="style4">
         Addition Comments:
@@ -604,8 +634,7 @@
         <asp:Button ID="Button1" runat="server" BackColor="Lime" BorderStyle="None" 
             Font-Bold="True" Font-Size="Large" ForeColor="White" Height="46px" 
             onclick="Button1_Click" Text="Complete Purchase" Width="234px" />
-&nbsp;&nbsp;&nbsp;&nbsp;
-    </p>
+&nbsp;&nbsp;&nbsp;&nbsp; </p>
     <p class="style4">
         <asp:Image ID="Image3" runat="server" Height="103px" 
             ImageUrl="~/IMAGES/secure.png" Width="122px" />

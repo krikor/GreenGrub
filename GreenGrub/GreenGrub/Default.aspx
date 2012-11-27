@@ -2,48 +2,42 @@
     CodeBehind="Default.aspx.cs" Inherits="GreenGrub._Default" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
+    <style type="text/css">
+        .style4
+        {
+            font-size: xx-large;
+        }
+        .style7
+        {
+            font-size: 45pt;
+            font-family: "Bernard MT Condensed";
+            color: #808080;
+        }
+        .style8
+        {
+            font-size: large;
+        }
+    </style>
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
     <center>
     &nbsp;&nbsp;</p>
-        <p class="style5">
-            Welcome to GreenGrub</p>
-    <p class="style5">
-        &nbsp;</p>
+        <p class="style7">
+            Welcome to GreenGrub!</p>
     <p class="style4">
-        &nbsp;</p>
-    <p class="style4">
-        <asp:Image ID="Image4" runat="server" CssClass="style8" 
-            ImageUrl="~/IMAGES/panini-gif.gif" />
+        <asp:Image ID="Image6" runat="server" Height="367px" 
+            ImageUrl="~/IMAGES/heart.jpg" Width="582px" />
     </p>
     <p class="style4">
-        <asp:Image ID="Image3" runat="server" CssClass="style7" 
-            ImageUrl="~/IMAGES/10pcoff.jpg" />
-    </p>
-    <p class="style4">
-        &nbsp;</p>
-    <p class="style4">
-        &nbsp;</p>
-    <p class="style4">
-        <asp:Image ID="Image5" runat="server" CssClass="style9" 
-            ImageUrl="~/IMAGES/HalfOffTagIllustrated1.jpg" />
-    </p>
-    <p class="style4">
-        &nbsp;</p>
-    <p class="style4">
-        &nbsp;</p>
-    <p class="style4">
-        <asp:Image ID="Image2" runat="server" CssClass="style6" 
-            ImageUrl="~/IMAGES/store_front_small.png" />
-    </p>
-    <p class="style4">
-        &nbsp;</p>
-    <p class="style4">
-        &nbsp;</p>
-    <p class="style4">
-        &nbsp;</p>
-    <p class="style4">
-        &nbsp;</p>
+        <asp:Image ID="Image7" runat="server" Height="238px" 
+            ImageUrl="~/IMAGES/ADD1.jpg" Width="235px" />
+&nbsp;<asp:Image ID="Image8" runat="server" Height="240px" ImageUrl="~/IMAGES/ADD2.jpg" 
+            Width="241px" />
+&nbsp;<asp:Image ID="Image9" runat="server" Height="241px" ImageUrl="~/IMAGES/ADD3.jpg" 
+            Width="246px" />
+        </p>
+        <p class="style8">
+            We are located very close to the UCL Campus. Order online or come visit us.</p>
 </center>
 <br />
 <br />

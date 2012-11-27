@@ -2,17 +2,49 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
     <style type="text/css">
 
+ p.MsoNormal
+	{margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Calibri","sans-serif";
+	        margin-left: 0in;
+            margin-right: 0in;
+            margin-top: 0in;
+        }
+        .style2
+        {
+            font-size: 45pt;
+            font-family: "Bernard MT Condensed";
+            color: #999999;
+        }
+    .style3
+    {
+         position: relative;
+            margin: 0px;
+            padding: 0px;
+            background: #4b6c9e;
+            width: 100%;
+            left: 0px;
+            top: 0px;
+    }
+        .style4
+        {
+            font-family: Verdana;
+        }
         .style5
         {
         font-family: Verdana;
         background-color: #ffffff;
         
     }
-        .style4
+        .style6
         {
             font-family: Verdana;
+            background-color: #ffffff;
+            text-align: center;
         }
-        </style>
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <h2 align="center" class="style2">

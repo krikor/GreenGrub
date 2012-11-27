@@ -60,6 +60,9 @@
     <Content Include="IMAGES\12412786-salad-and-vegetables-on-a-fork-healthy-diet-with-organic-food.jpg" />
     <Content Include="IMAGES\58659email_icon_green.jpg" />
     <Content Include="IMAGES\about-icon.png" />
+    <Content Include="IMAGES\ADD1.jpg" />
+    <Content Include="IMAGES\ADD2.jpg" />
+    <Content Include="IMAGES\ADD3.jpg" />
     <Content Include="IMAGES\AppleJuice.jpg" />
     <Content Include="IMAGES\Basil.jpg" />
     <Content Include="IMAGES\carrotJuice.jpg" />
@@ -75,6 +78,7 @@
     <Content Include="IMAGES\GreenGrubLogo.png" />
     <Content Include="IMAGES\GreenGrubLogoJPEG.jpg" />
     <Content Include="IMAGES\HalfOffTagIllustrated1.jpg" />
+    <Content Include="IMAGES\heart.jpg" />
     <Content Include="IMAGES\home-trans.png" />
     <Content Include="IMAGES\icon_ingredients.gif" />
     <Content Include="IMAGES\img-secure.png" />
@@ -247,7 +251,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>60798</DevelopmentServerPort>
+          <DevelopmentServerPort>49999</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>

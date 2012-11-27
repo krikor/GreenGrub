@@ -2,15 +2,45 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
     <style type="text/css">
 
+          .style2
+        {
+            text-align: center;
+        }
+        .style2
+        {
+            text-align: center;
+        }
+        .style3
+        {
+           position: relative;
+            margin: 0px;
+            padding: 0px;
+            background: #4b6c9e;
+            width: 100%;
+            left: 0px;
+            top: 0px;
+        }
         .style4
         {
             text-align: center;
             background-color:#ffffff;
             
         }
-        .style6
+        .style5
+        {
+            font-size: 15pt;
+            text-align: center;
+            background-color:#ffffff;
+        }
+    .style6
     {
         font-size: small;
+    }
+    .style7
+    {
+        font-size: small;
+        text-align: center;
+        background-color: #ffffff;
     }
     </style>
 </asp:Content>

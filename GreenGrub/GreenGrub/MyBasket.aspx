@@ -1,12 +1,7 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="MyBasket.aspx.cs" Inherits="GreenGrub.WebForm5" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
     <style type="text/css">
-
-        .style17
-        {
-            text-align: right;
-        }
-        .style4
+     .style4
         {
             text-align: center;
         }
@@ -42,7 +37,7 @@
             font-style: normal;
             text-decoration: none;
             font-family: Calibri, sans-serif;
-            text-align: general;
+            text-align: left;
             vertical-align: bottom;
             white-space: nowrap;
             border: .5pt solid windowtext;
@@ -82,6 +77,7 @@
             padding-left: 1px;
             padding-right: 1px;
             padding-top: 1px;
+            height: 25pt;
         }
         .style11
         {
@@ -92,7 +88,7 @@
             font-style: normal;
             text-decoration: none;
             font-family: Calibri, sans-serif;
-            text-align: general;
+            text-align: left;
             vertical-align: bottom;
             white-space: nowrap;
             width: 104pt;
@@ -136,7 +132,7 @@
             font-style: normal;
             text-decoration: none;
             font-family: Calibri, sans-serif;
-            text-align: general;
+            text-align: left;
             vertical-align: bottom;
             white-space: nowrap;
             width: 104pt;
@@ -194,6 +190,53 @@
             padding-right: 1px;
             padding-top: 1px;
         }
+        .style17
+        {
+            text-align: right;
+        }
+        .style18
+        {
+            color: #808080;
+            font-size: 15pt;
+            font-weight: 400;
+            font-style: normal;
+            text-decoration: none;
+            font-family: "Bernard MT Condensed";
+            text-align: general;
+            vertical-align: bottom;
+            white-space: nowrap;
+            border-left: .5pt solid windowtext;
+            border-right: .5pt solid windowtext;
+            border-top: .5pt solid windowtext;
+            border-bottom-style: none;
+            border-bottom-color: inherit;
+            border-bottom-width: medium;
+            padding-left: 1px;
+            padding-right: 1px;
+            padding-top: 1px;
+        }
+        .style19
+        {
+            margin-top: 0px;
+        }
+        .style20
+        {
+            height: 25pt;
+            width: 104pt;
+            color: black;
+            font-size: 11.0pt;
+            font-weight: 400;
+            font-style: normal;
+            text-decoration: none;
+            font-family: Calibri, sans-serif;
+            text-align: left;
+            vertical-align: bottom;
+            white-space: nowrap;
+            border: .5pt solid windowtext;
+            padding-left: 1px;
+            padding-right: 1px;
+            padding-top: 1px;
+        }
         </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
@@ -222,8 +265,8 @@
             <td class="style8" width="64">
                 Unit Price</td>
         </tr>
-        <tr height="20">
-            <td class="style7" height="20">
+        <tr>
+            <td class="style20">
                 <asp:Image ID="Image1" runat="server" Height="44px" 
                     ImageUrl="~/IMAGES/GreekPic.png" Width="49px" />
                 &nbsp;Simply Greek Salad</td>
@@ -238,14 +281,12 @@
         </tr>
         <tr height="20">
             <td class="style11" height="20">
-                <asp:Image ID="Image2" runat="server" Height="56px" 
-                    ImageUrl="~/IMAGES/Tropical.jpg" Width="45px" />
-                &nbsp;Tropical Juice</td>
-            <td class="style12">
-                <span class="style6">
+                <asp:Image ID="Image2" runat="server" Height="57px" 
+                    ImageUrl="~/IMAGES/AppleJuice.jpg" Width="127px" CssClass="style19" />
+                &nbsp;Apple Juice</td>
+            <td class="style18">
                 <asp:Button ID="Button2" runat="server" BackColor="#FF3300" 
                     BorderColor="#FF3300" BorderStyle="None" Text="Remove" Width="87px" />
-                </span>
             </td>
             <td class="style12">
                 1</td>
@@ -263,18 +304,20 @@
                 <span class="st">£ </span>7.98</td>
         </tr>
     </table>
-    <asp:CheckBox ID="CheckBox1" runat="server" Text="Student (Show ID)" />
+    <asp:CheckBox ID="CheckBox1" runat="server" Text="Student (Show ID)" 
+            Font-Size="Large" />
     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <br />
     <asp:Button ID="Button4" runat="server" BackColor="#0066FF" 
         BorderColor="#0066FF" BorderStyle="None" ForeColor="White" 
-        onclick="Button4_Click" Text="Continue to Checkout" Width="227px" />
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        onclick="Button4_Click" Text="Continue to Checkout" Width="235px" 
+            Font-Size="Medium" Height="52px" />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <br />
     <asp:ImageButton ID="ImageButton7" runat="server" Height="53px" 
         ImageUrl="~/IMAGES/paypal-button.png" onclick="ImageButton7_Click1" 
         Width="214px" />
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <br />
     &nbsp;&nbsp;&nbsp;
     <br />

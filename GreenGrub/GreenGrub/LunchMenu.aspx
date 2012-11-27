@@ -1,5 +1,54 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="LunchMenu.aspx.cs" Inherits="GreenGrub.WebForm7" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
+<style type="text/css">
+
+ p.MsoNormal
+	{margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	font-size:10.5pt;
+	font-family:"Calibri","sans-serif";
+	        margin-left: 0in;
+            margin-right: 0in;
+            margin-top: 0in;
+        }
+        .style2
+        {
+            font-size: 45pt;
+            font-family: "Bernard MT Condensed";
+            color: #999999;
+        }
+    .style3
+    {
+         position: relative;
+            margin: 0px;
+            padding: 0px;
+            background: #4b6c9e;
+            width: 100%;
+            left: 0px;
+            top: 0px;
+        
+    }
+        .style4
+        {
+            text-align: center;
+            font-size: x-large;
+        }
+        .style5
+        {
+            text-align: center;
+        }
+        .style6
+        {
+            text-align: center;
+            font-size: x-large;
+            text-decoration: underline;
+        }
+        .style7
+        {
+            text-align: right;
+        }
+        </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
     <h2 align="center" class="style2">

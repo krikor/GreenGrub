@@ -8,14 +8,22 @@
     <asp:ContentPlaceHolder ID="HeadContent" runat="server">
     </asp:ContentPlaceHolder>
     <style type="text/css">
-
-        .style1
+      .style1
         {
             width: 960px;
             background-color: #fff;
             margin: 20px auto 0px auto;
             border: 1px solid #496077;
             text-align: left;
+        }
+        
+        .style2
+        {
+            text-align: center;
+            height: 59px;
+            font-size: 45pt;
+            font-family: "Bernard MT Condensed";
+            color: #999999;
         }
         
         .style3
@@ -27,15 +35,6 @@
             width: 100%;
             left: 0px;
             top: 0px;
-        }
-        
-        .style2
-        {
-            text-align: center;
-            height: 59px;
-            font-size: 45pt;
-            font-family: "Bernard MT Condensed";
-            color: #999999;
         }
         
         </style>
