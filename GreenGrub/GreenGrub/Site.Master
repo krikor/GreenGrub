@@ -66,23 +66,24 @@
                 <div class="style2">
                     <asp:ImageButton ID="ImageButton2" runat="server" Height="89px" 
                         ImageUrl="~/IMAGES/home-trans.png" onclick="ImageButton2_Click" ToolTip="Home" 
-                        Width="77px" />
+                        Width="77px" PostBackUrl="Default.aspx" />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:ImageButton ID="ImageButton3" runat="server" Height="88px" 
                         ImageUrl="~/IMAGES/MenuIcon.gif" onclick="ImageButton3_Click" ToolTip="Menu" 
-                        Width="81px" />
+                        Width="81px" PostBackUrl="LunchMenu.aspx" />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:ImageButton ID="ImageButton4" runat="server" Height="96px" 
                         ImageUrl="~/IMAGES/ingredient.jpg" onclick="ImageButton4_Click" 
-                        ValidationGroup="Our Ingredients" Width="90px" />
+                        ValidationGroup="Our Ingredients" Width="90px" 
+                        PostBackUrl="OurIngredients.aspx" />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:ImageButton ID="ImageButton5" runat="server" Height="96px" 
                         ImageUrl="~/IMAGES/GreenGrubLogo.png" onclick="ImageButton5_Click" 
-                        Width="85px" />
+                        Width="85px" PostBackUrl="About.aspx" />
                     &nbsp;&nbsp;&nbsp;
                     <asp:ImageButton ID="ImageButton6" runat="server" Height="93px" 
                         ImageUrl="~/IMAGES/58659email_icon_green.jpg" onclick="ImageButton6_Click" 
-                        Width="95px" />
+                        Width="95px" PostBackUrl="Contact Us.aspx" />
                 </div>
             </div>
         </div>
