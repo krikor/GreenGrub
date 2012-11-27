@@ -44,8 +44,8 @@
     <form runat="server">
     <div class="style1">
         <div class="style3">
-            <div class="loginDisplay">
-                <asp:ImageButton ID="ImageButton1" runat="server" Height="74px" 
+            <div class="loginDisplay" style="background-position: 0px 0px; background-image: url('/IMAGES/TOPback.jpg'); overflow: auto; background-repeat: no-repeat; background-attachment: inherit; height: 111px;">
+                 <asp:ImageButton ID="ImageButton1" runat="server" Height="74px" 
                     ImageUrl="~/IMAGES/shopping basket.png" onclick="ImageButton1_Click1" 
                     PostBackUrl="MyBasket.aspx" Width="78px" />
                 <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
