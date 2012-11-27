@@ -7,23 +7,22 @@
         {
             font-size: xx-large;
         }
-        .style7
-        {
-            font-size: 45pt;
-            font-family: "Bernard MT Condensed";
-            color: #808080;
-        }
         .style8
         {
             font-size: large;
+        }
+        .style9
+        {
+            font-size: 45pt;
+            font-family: "Bernard MT Condensed";
+            color: #999999;
         }
     </style>
 </asp:Content>
 <asp:Content ID="BodyContent" runat="server" ContentPlaceHolderID="MainContent">
     <center>
-    &nbsp;&nbsp;</p>
-        <p class="style7">
-            Welcome to GreenGrub!</p>
+        <h2 class="style9">
+            Welcome to GreenGrub!</h2>
     <p class="style4">
         <asp:Image ID="Image6" runat="server" Height="367px" 
             ImageUrl="~/IMAGES/heart.jpg" Width="582px" />
